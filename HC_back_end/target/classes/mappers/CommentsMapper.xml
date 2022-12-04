@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.healthcare.mapper.CommentsMapper">
+
+    <update id="updateState">
+        update comments set
+            state=#{state}
+        where comment_id=#{comment_id}
+    </update>
+
+    <select id="selectAll" resultType="com.healthcare.entity.Comments">
+        select comment_id comment_id,user_id user_id,essay_id essay_id,state state from comments where essay_id=#{essay_id}
+    </select>
+
+    <select id="selectChecked" resultType="com.healthcare.entity.Comments">
+        select comment_id comment_id,user_id user_id,essay_id essay_id,comment comment,state state
+        from comments where essay_id=#{essay_id} and state=#{state}
+    </select>
+
+</mapper>

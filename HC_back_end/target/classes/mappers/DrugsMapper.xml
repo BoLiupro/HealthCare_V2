@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.healthcare.mapper.DrugsMapper">
+    <select id="selectByName" resultType="com.healthcare.entity.Drugs">
+        select drug_id drug_id,name name,type type,quantity quantity
+             ,price price,producer producer from drugs where name like #{name}
+    </select>
+
+    <select id="selectByType" resultType="com.healthcare.entity.Drugs">
+        select drug_id drug_id,name name,type type,quantity quantity
+             ,price price,producer producer from drugs where type like #{type}
+    </select>
+
+    <select id="selectByProducer" resultType="com.healthcare.entity.Drugs">
+        select drug_id drug_id,name name,type type,quantity quantity
+             ,price price,producer producer from drugs where producer like #{producer}
+    </select>
+</mapper>
