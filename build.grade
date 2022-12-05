@@ -8,4 +8,4 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-1
+2
