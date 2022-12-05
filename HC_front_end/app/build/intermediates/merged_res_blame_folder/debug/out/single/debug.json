@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_fragment_info.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/fragment_info.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_navigation_information_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_navigation_information_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_bg_health_heart_rate.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_bg_health_heart_rate.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/xml_network_config.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/xml/network_config.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ripple_item_click.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ripple_item_click.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable-v24_ic_voice_prompt_min.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable-v24/ic_voice_prompt_min.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_health_thermometer.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_health_thermometer.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_bg_login_leaves_2.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/bg_login_leaves_2.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_baseline_close_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_baseline_sort_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_baseline_sort_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_fg_article_search_text.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_fg_article_search_text.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/menu_menu_main_navigation.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/menu/menu_main_navigation.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_round_arrow_back_ios_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_round_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_article_reading.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_article_reading.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/anim_activity_main_start_exit.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/anim/activity_main_start_exit.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_article_search.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_article_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_navigation_person_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_navigation_person_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_login.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_article_reading_leave_comment.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_article_reading_leave_comment.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_bg_med_search.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_bg_med_search.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_fg_article_search.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_fg_article_search.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_health_heart_rate.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_health_heart_rate.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_collection.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_collection.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_article_reading_text.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_article_reading_text.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_bg_health_life_index_card.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_bg_health_life_index_card.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_info_header.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_info_header.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/anim_activity_main_start_enter.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/anim/activity_main_start_enter.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_fragment_health.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/fragment_health.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_mask_rounded_corner_50per.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/mask_rounded_corner_50per.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_navigation_health_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_navigation_health_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_info_content.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_info_content.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_article_reading_comment.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_article_reading_comment.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_mask_rounded_corner_15.9.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/mask_rounded_corner_15.9.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/menu_menu_med_search_popup_filter.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/menu/menu_med_search_popup_filter.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_fragment_mine.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/fragment_mine.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_baseline_format_size_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_baseline_format_size_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_health_life_index.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_health_life_index.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_bg_article_search.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_bg_article_search.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_med_search.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_med_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_round_favorite_24.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_round_favorite_24.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable-v24_ic_voice_prompt_pu.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable-v24/ic_voice_prompt_pu.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_launcher.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_launcher.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_fg_med_search.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_fg_med_search.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_bg_login_leaves_1.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/bg_login_leaves_1.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_fg_med_search_text.png.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_fg_med_search_text.png"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_item_health_epidemic.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_health_epidemic.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/drawable_ic_clear_input.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/drawable/ic_clear_input.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/layout_activity_med_search.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_med_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-merged_res-45:/menu_menu_article_reading_top_bar.xml.flat",
+        "source": "com.utf8coding.healthcare.app-main-47:/menu/menu_article_reading_top_bar.xml"
+    }
+]

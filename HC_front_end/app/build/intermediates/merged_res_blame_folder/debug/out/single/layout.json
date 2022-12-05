@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_med_search.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_med_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_launcher.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_launcher.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_article_reading_comment.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_article_reading_comment.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/fragment_health.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/fragment_health.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/fragment_info.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/fragment_info.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/fragment_mine.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/fragment_mine.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_article_reading_leave_comment.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_article_reading_leave_comment.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_article_search.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_article_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_info_content.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_info_content.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_med_search.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_med_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_info_header.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_info_header.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_health_heart_rate.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_health_heart_rate.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_health_life_index.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_health_life_index.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_collection.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_collection.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_article_reading_text.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_article_reading_text.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/activity_article_reading.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/activity_article_reading.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeDebugResources-44:/layout/item_health_epidemic.xml",
+        "source": "com.utf8coding.healthcare.app-main-47:/layout/item_health_epidemic.xml"
+    }
+]

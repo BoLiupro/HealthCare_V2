@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/textSize"
+        android:icon="@drawable/ic_baseline_format_size_24"
+        android:title="@string/like"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/collect"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="@string/like"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/readPu"
+        android:icon="@drawable/ic_voice_prompt_pu"
+        android:title="@string/普通话朗读"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/readMin"
+        android:icon="@drawable/ic_voice_prompt_min"
+        android:title="@string/闽南话朗读"
+        app:showAsAction="always" />
+</menu>

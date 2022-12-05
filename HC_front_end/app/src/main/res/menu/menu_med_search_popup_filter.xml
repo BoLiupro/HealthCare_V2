@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/byMedName"
+        android:title="@string/按药名" />
+    <item android:id="@+id/byType"
+        android:title="@string/按类型" />
+    <item android:id="@+id/byManufacturer"
+        android:title="@string/按生产商" />
+</menu>

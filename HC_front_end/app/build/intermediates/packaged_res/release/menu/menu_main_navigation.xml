@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/info"
+        android:enabled="true"
+        android:icon="@drawable/ic_navigation_information_24"
+        android:title="@string/资讯"/>
+
+    <item
+        android:id="@+id/health"
+        android:enabled="true"
+        android:icon="@drawable/ic_navigation_health_24"
+        android:title="@string/健康"/>
+
+    <item
+        android:id="@+id/mine"
+        android:enabled="true"
+        android:icon="@drawable/ic_navigation_person_24"
+        android:title="@string/我的"/>
+
+</menu>

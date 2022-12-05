@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.utf8coding.healthcare.app-mergeReleaseResources-43:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\3ff25fbb0fe0ac403e36e6b3903119a9\\transformed\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\4825226d7bdc18dc642f18a8a048b277\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
