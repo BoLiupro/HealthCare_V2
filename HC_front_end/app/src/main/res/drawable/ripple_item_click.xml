@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#696969">
+    <!-- 这里相当于普通的shape文件-->
+    <!-- 这里的shape可以单独提出来，然后这里的item使用drawable属性调用也行-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00FFFFFF"/>
+        </shape>
+    </item>
+
+</ripple>

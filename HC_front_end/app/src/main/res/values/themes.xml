@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HealthCare" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/active_green_high_contrast</item>
+        <item name="colorPrimaryVariant">@color/active_green_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/solid_blue_light</item>
+        <item name="colorSecondaryVariant">@color/solid_blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- textInputField theme at login -->
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="loginTextField" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorControlActivated">@color/active_green</item>
+        <item name="colorControlHighlight">@color/active_green</item>
+    </style>
+
+    <!-- loginButton theme at login -->
+    <style name="loginButton" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="rippleColor"> @color/active_green</item>
+    </style>
+
+    <!-- navigationBar theme at main -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/active_green_dark</item>
+    </style>
+
+    <!-- collapsing app bar -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    
+    <!-- for title text of collapsing bar -->
+    <style name="ExpandingCollapsingViewTitleText">
+        <item name="android:shadowColor">@color/black_a75</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDy">8</item>
+        <item name="android:shadowDx">8</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ExpandingCollapsingViewTitleTextBlack">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CollapsingCollapsingViewTitleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <!--todo 警告对话框颜色不对    -->
+    <style name="MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorAccent">@color/active_green_dark</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black_a75</item>
+        <item name="android:textColorTertiary">@color/active_green_dark</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

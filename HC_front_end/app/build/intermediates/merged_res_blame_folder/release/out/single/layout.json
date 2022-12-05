@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_info_header.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_info_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_article_reading.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_article_reading.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_health_epidemic.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_health_epidemic.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_health_life_index.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_health_life_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_article_reading_comment.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_article_reading_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\fragment_mine.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_info_content.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_info_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_med_search.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_med_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_article_reading_leave_comment.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_article_reading_leave_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\fragment_health.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\fragment_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_collection.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_launcher.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\activity_article_search.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\activity_article_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_med_search.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_med_search.xml"
+    },
+    {
+        "merged": "com.utf8coding.healthcare.app-mergeReleaseResources-44:/layout/activity_article_reading.xml",
+        "source": "com.utf8coding.healthcare.app-main-46:/layout/activity_article_reading.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_article_reading_text.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_article_reading_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\fragment_info.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\fragment_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-mergeReleaseResources-44:\\layout\\item_health_heart_rate.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\7.3.3\\com.utf8coding.healthcare.app-main-46:\\layout\\item_health_heart_rate.xml"
+    }
+]

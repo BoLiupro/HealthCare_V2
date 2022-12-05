@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorPrimary">#10A74E</color>
+    <color name="active_green_very_dark">#094A35</color>
+    <color name="active_green_dark">#10A74E</color>
+    <color name="active_green_high_contrast">#1BD99A</color>
+    <color name="active_green_dark_a75">#BF1BD99A</color>
+    <color name="active_green_dark_a50">#7F1BD99A</color>
+    <color name="active_green_dark_a25">#3F1BD99A</color>
+    <color name="active_green">#57E19D</color>
+    <color name="active_green_light">#A7F0C2</color>
+    <color name="solid_blue_dark">#2C3EA4</color>
+    <color name="solid_blue">#499DDF</color>
+    <color name="solid_blue_light">#6CD6FF</color>
+    <color name="purple_200">#A7F0C2</color>
+    <color name="purple_500">#57E19D</color>
+    <color name="purple_700">#1BD99A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_a15">#1F000000</color>
+    <color name="black_a25">#3F000000</color>
+    <color name="black_a50">#7F000000</color>
+    <color name="black_a75">#BF000000</color>
+    <color name="gray_75">#969696</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#DD1E0F</color>
+</resources>

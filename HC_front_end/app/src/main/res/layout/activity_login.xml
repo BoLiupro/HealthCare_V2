@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loginBackGround"
+    android:background="@color/active_green"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/bgLeaves"
+        android:layout_width="260dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_login_leaves_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/bgLeaves2"
+        android:layout_width="180dp"
+        android:layout_height="390dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_login_leaves_2"
+        app:layout_editor_absoluteY="-80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Care"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:shadowColor="@color/black_a25"
+        android:shadowRadius="5"
+        android:shadowDx="4"
+        android:shadowDy="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/sloganTextView"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        android:shadowColor="@color/black_a25"
+        android:shadowRadius="5"
+        android:shadowDx="4"
+        android:shadowDy="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userNameInputLayout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+
+        android:theme="@style/loginTextField"
+        app:boxBackgroundMode="filled"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/active_green_dark"
+        app:boxStrokeWidth="2dp"
+        app:hintTextColor="@color/active_green_dark"
+
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userName"
+            android:inputType="textNoSuggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/用户名"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:theme="@style/loginTextField"
+        app:boxBackgroundColor="@color/white"
+
+        app:boxBackgroundMode="filled"
+        app:boxStrokeColor="@color/active_green_dark"
+        app:boxStrokeWidth="2dp"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="@color/active_green_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/密码"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:visibility="gone"
+        android:id="@+id/passwordCheckLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:theme="@style/loginTextField"
+        app:boxBackgroundColor="@color/white"
+
+        app:boxBackgroundMode="filled"
+        app:boxStrokeColor="@color/active_green_light"
+        app:boxStrokeWidth="2dp"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="@color/active_green_high_contrast"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/再次输入密码"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/enterRegisterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/注册账号"
+        android:textColor="@color/active_green_very_dark"
+        android:textSize="16sp"
+        android:shadowColor="@color/black_a25"
+        android:shadowRadius="5"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="35sp"
+        android:paddingVertical="12sp"
+        android:layout_marginTop="30dp"
+        android:elevation="15dp"
+        android:text="@string/登录"
+        android:textColor="@color/active_green_very_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/registerButton"
+        style="@style/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="35sp"
+        android:paddingVertical="12sp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/active_green_dark"
+        android:clickable="true"
+        android:text="@string/注册"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout" />
+
+
+    <ImageButton
+        android:visibility="invisible"
+        android:id="@+id/backButton"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_round_arrow_back_ios_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/loadingIndicator"
+        android:visibility="invisible"
+        style="@style/SpinKitView.Wave"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/transitionMasking"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/white"-->
+<!--        android:elevation="20dp"-->
+<!--        android:visibility="invisible" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
