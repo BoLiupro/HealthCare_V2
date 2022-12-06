@@ -31,7 +31,7 @@ class RenjuBoard(object):
     def __init__(self):
         # self._board = board = [[EMPTY] * 15 for _ in range(15)]
         # 将棋盘每一个交叉点都看作列表的一个元素位，一共有15*15共225个元素
-        self._board = [[]] * 15
+        self._board = [[]] * 15                            
         self.reset()
     #重置棋盘
     def reset(self):
@@ -627,3 +627,4 @@ class LauncherActivity : BaseActivity() {
         ActivityCollector.finishAll()
     }
 }
+555
