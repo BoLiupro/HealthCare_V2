@@ -627,4 +627,3 @@ class LauncherActivity : BaseActivity() {
         ActivityCollector.finishAll()
     }
 }
-555
