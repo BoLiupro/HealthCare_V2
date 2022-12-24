@@ -74,3 +74,104 @@ void loop()
  }
  delay(1);
 }
+
+/*
+* This part is the code of Arduino B
+* the function are receive data from Arduino A
+* check if heart attack happened
+* send different messages in different situations
+*/
+#include<SoftwareSerial.h>
+SoftwareSerial BT(8, 9); // RX,TX
+SoftwareSerial softSerial1(4,5);
+char val;
+String vals;
+int BPM;
+boolean IsNewLine = false;
+const int highRate=150; 
+const int lowRate=30; 
+ //we set BPM=150 the high rate, if BPM>150, we should
+ //give out heart attack warning.
+ //similarly, we set BPM=30 the low rate, if BPM<30, we 
+ //should give out heart attack warning too.
+int sendMeg(String phonenum,String text)//Function to send information
+{
+ char comdata=0;//Used to determine whether the last bit received is correct
+ String phone="";//Telephone number storage
+ phone="AT+CMGS=\""+phonenum+'\"'; //Concatenate AT instructions for entering numbers
+ while (softSerial1.available() > 0){ //Clear the text in the soft interface
+ comdata = softSerial1.read(); 
+ delay(2);
+ } 
+ softSerial1.println("AT");//Send "AT" to GSM, see the response, soft interface should return "OK"
+ delay(1000);
+ while (softSerial1.available() > 2){ //If the number of characters returned by the soft interface is greater than 2
+ comdata = softSerial1.read(); 
+ Serial.print(comdata);//error warning
+ delay(2);
+ }
+ if(comdata!='K')//Check that the "OK" was not received.
+ {
+ Serial.println("error1");//Error, Arduino is not connected to GMS, or GMS is broken
+ return 0;
+ }
+ comdata=0; 
+ softSerial1.println("AT+CMGF=1");//Set GSM text mode (for Sending English SMS messages)
+ delay(500);
+ while (softSerial1.available() > 2){ //If the number of characters returned by the soft interface is greater than 2
+ comdata = softSerial1.read(); //Clear the text in the soft interface
+ delay(2);
+ }
+ 
+ if(comdata!='K')//No "OK" received, GSM failed to set to GSM text mode
+ {
+ Serial.println("error2");
+ return 0;
+ } 
+ comdata=0;
+ softSerial1.println(phone);//Destination number to send
+ delay(1000);
+ while (softSerial1.available() > 1){ //If the number of characters returned by the soft interface is greater than 1
+ comdata = softSerial1.read(); //Clear the text in the soft interface
+ delay(2);
+ }
+ 
+ if(comdata!='>')//There is no received '>
+ {
+ Serial.println("error3"); //Failed to send SMS messages
+ return 0;
+ }
+ comdata=0;
+ softSerial1.print(text);//Send what is written
+ delay(500);
+ softSerial1.write(0x1A); //Enter a text message and send a SMS message
+ Serial.println("successfully send message!"); //success
+ 
+}
+void setup() {
+ Serial.begin(9600);
+ BT.begin(9600);
+}
+void loop() {
+ if(BT.available()){
+ val=BT.read();
+ vals=vals+val;
+ if(val=='.'){
+ BPM=atoi(vals.c_str());
+ Serial.println(BPM);
+ if(BPM>highRate){
+ Serial.println("warning!!the heart rate is too high!");
+ sendMeg("13973112505","warning!!the heart rate is too high!");// send SMS message
+ // sendsim2("13973112505","ddd",softSerial1);
+ delay(500*1000); 
+ }
+ else if(BPM<lowRate){ 
+ Serial.println("warning!!the heart rate is too low!");
+ sendMeg("13973112505","warning!!the heart rate is too low!");//send SMS message
+ // sendsim2("13973112505","ddd",softSerial1);
+ delay(500*1000);}
+ vals="";
+ }
+ }
+ delay(1);
+}
